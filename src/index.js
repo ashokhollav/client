@@ -13,4 +13,7 @@ ReactDOM.render(
   </Provider>,
   document.getElementById("root"),
 )
+console.log(process.env.SERVER_URL)
+console.log('all')
+console.log(process.env)
 registerServiceWorker()

@@ -1,5 +1,7 @@
 import fetch from "./request"
-const server = process.env.SERVER_URL || "localhost:8000"
+
+console.log("server ...");
+const server = "35.239.48.168:8000";
 
 export async function onCreateTask(todo) {
   try {
